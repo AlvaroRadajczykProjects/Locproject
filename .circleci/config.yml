@@ -9,4 +9,8 @@ version: 2.1
             name: Install npm dependencies
             command: |
               npm install --save
+  workflows:
+      build_tests:
+        jobs:
+          - run_tests
           
