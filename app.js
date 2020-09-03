@@ -17,7 +17,7 @@ app.use(function(req, res, next) {
 // handle every other route with index.html, which will contain
 // a script tag to your application's JavaScript file(s).
 app.get('*', function (request, response){
-  response.sendFile(path.resolve(__dirname, '', 'index.html'))
+  response.sendFile(path.resolve(__dirname, '', 'https://github.com/Alvaroprueba/Locproject/blob/master/page.html'))
 })
 
 https.createServer({
