@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/punkdata/nodejs-circleci.git#readme",
   "dependencies": {
-	"express": "^2.6.1",
+	"express": "^4.17.1",
   },
 }
